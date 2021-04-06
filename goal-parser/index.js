@@ -12,3 +12,9 @@ var interpret = function(command) {
 };
 
 //parameter is a string
+
+//faster than 52%, less space than 24%
+var interpretOp1 = function(command) {
+    //charAt()
+   return command.split("()").join("o").split("(al)").join("al")
+};
