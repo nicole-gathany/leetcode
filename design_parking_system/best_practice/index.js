@@ -15,10 +15,14 @@ ParkingSystem.prototype.addCar = function(carType) {
   return this.count[carType - 1]-- > 0;
   //addCar(1)
   // carType is 1 (big) that's asking if there is a big space. 
-  //if big (or this.count[0] or this.count[1-0]) is 0, return false
+  //if big (or this.count[0] or this.count[1-1]) is 0, return false
+  //because that means a space for a big car is unavailable
   //if it's more than 0 return false and then subtract 1 from this.big
   //addCar(2)
-  //if carTyppe
+  //if carType is 2 (medium) addCar(2) is asking if there is a medium space.
+  //if a medium (or this.count[1] or this.count[2-1]) is 0,
+  //because that means a spac for a medium car is unavailable
+
   
 };
 
