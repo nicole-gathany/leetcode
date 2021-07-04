@@ -10,3 +10,6 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
+
+// Runtime: 84 ms, faster than 81.93% of JavaScript online submissions for Contains Duplicate.
+// Memory Usage: 42.7 MB, less than 81.55% of JavaScript online submissions for Contains Duplicate.
