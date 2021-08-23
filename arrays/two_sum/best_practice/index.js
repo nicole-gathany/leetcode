@@ -16,3 +16,5 @@ function twoSum(nums, target) {
   //if any of the numbers that follow the the number saved sums up to the target with that numner
   //it returns the index of that number and the index of the number that added to it equals the target
   // this language is so weird! sorry!! 
+
+  
